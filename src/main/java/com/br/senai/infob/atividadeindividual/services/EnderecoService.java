@@ -16,13 +16,4 @@ public class EnderecoService {
         return enderecoRepository.save(endereco);
     }
 
-    public Boolean  delete(Integer id) {
-        Endereco endereco = enderecoRepository.findById(id).get();
-        if(endereco != null) {
-            enderecoRepository.deleteById(id);
-            return true;
-        }
-        return false;
-    }
-
 }

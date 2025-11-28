@@ -13,7 +13,7 @@ import jakarta.persistence.Table;
 
 
 @Entity
-@Table(name="usuário")
+@Table(name="usuario")
 public class Usuario {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -36,7 +36,7 @@ public class Usuario {
     private String senha;
 
     @ManyToOne
-    @JoinColumn(name = "endereco_id", nullable =  false)
+    @JoinColumn(name = "endereco_id")
     private Endereco endereco;
 
     public Usuario() {
