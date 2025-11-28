@@ -4,13 +4,14 @@
 
 Sur le fond
 
-#📘 Descrição do Projeto
+📘 Descrição do Projeto
 
 Este projeto consiste no desenvolvimento de um aplicativo mobile criado no FlutterFlow, integrado com uma API REST hospedada no Render, utilizando o Swagger para consumo dos endpoints.
 O objetivo principal é permitir que um usuário se cadastre, faça login, visualize seus dados pessoais, gerencie seu endereço e navegue por uma tela inicial com layout estruturado (header, footer, imagens e botões).
 O projeto segue os requisitos da UC, incluindo documentação, integração com API real, prints do FlutterFlow e deploy funcional do backend.
 
-#🧩 Descrição das Funcionalidades
+🧩 Descrição das Funcionalidades
+
 🔐 1. Tela de Login
 
 Formúlario contendo:
@@ -74,7 +75,7 @@ Referência.
 
 Botão “Salvar” que envia os dados à API
 
-#🛠 Tecnologias Utilizadas
+🛠 Tecnologias Utilizadas
 
 👨‍💻 Front-end:
 
@@ -92,13 +93,13 @@ PostgreSQL
 Deploy no Render
 Documentação via Swagger
 
-#🔧 Ferramentas
+🔧 Ferramentas
 
 Git / GitHub
 Swagger UI
 FlutterFlow
 
-#🔐 Login – API Call
+🔐 Login – API Call
 
 1. Call Definition
 2. Response & Test
@@ -119,11 +120,11 @@ FlutterFlow
 2. Response & Test
 3. Aba de Test
 
-#🔗 Swagger:
+🔗 Swagger:
 
 http://localhost:8080/aula/swagger-ui/index.html#/
 
-#👨‍💻 Desenvolvedor
+👨‍💻 Desenvolvedor
 
 Nome: Ana Clara Kaizer Ribeiro
 Turma: 2 Info B
