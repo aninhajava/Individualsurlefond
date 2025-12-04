@@ -1,18 +1,21 @@
 # Individualsurlefond
 
- #📝 Título do Projeto
+Título do Projeto
+-------
 
 Sur le fond
 
-📘 Descrição do Projeto
+Descrição do Projeto
+-------
 
 Este projeto consiste no desenvolvimento de um aplicativo mobile criado no FlutterFlow, integrado com uma API REST hospedada no Render, utilizando o Swagger para consumo dos endpoints.
 O objetivo principal é permitir que um usuário se cadastre, faça login, visualize seus dados pessoais, gerencie seu endereço e navegue por uma tela inicial com layout estruturado (header, footer, imagens e botões).
 O projeto segue os requisitos da UC, incluindo documentação, integração com API real, prints do FlutterFlow e deploy funcional do backend.
 
-🧩 Descrição das Funcionalidades
+Descrição das Funcionalidades
+----------
 
-🔐 1. Tela de Login
+1. Tela de Login
 
 Formúlario contendo:
 Email;
@@ -22,7 +25,7 @@ Chamada à API de autenticação
 Redirecionamento automático para a tela inicial após login bem-sucedido
 Exibição de mensagens de erro em caso de credenciais inválidas
 
-📝 2. Tela de Cadastro
+2. Tela de Cadastro
 
 Formulário contendo:
 
@@ -38,7 +41,7 @@ Integração com API para criação de novos usuários
 Exibição de confirmação ao finalizar o cadastro
 Redirecionamento para a tela de login
 
-👤 3. Tela de Dados do Usuário
+3. Tela de Dados do Usuário
 
 Carregamento automático dos dados do usuário autenticado
 
@@ -54,14 +57,14 @@ CPF.
 Informação adicional retornada pela API
 Botão para atualizar dados
 
-🏠 4. Tela Inicial
+4. Tela Inicial
 
 Header com título, icone e foto
 Área central com imagem, texto explicativo e ícones
 Footer fixo
 Botão que redireciona para continuar e voltar
 
-🏡 5. Tela de Endereço
+5. Tela de Endereço
 
 Campos incluídos:
 
@@ -75,16 +78,17 @@ Referência.
 
 Botão “Salvar” que envia os dados à API
 
-🛠 Tecnologias Utilizadas
+Tecnologias Utilizadas
+-------------------
 
-👨‍💻 Front-end:
+Front-end:
 
 FlutterFlow
 Dart
 Widgets nativos do Flutter
 HTTP Request via API Calls do FlutterFlow
 
-🌐 Back-end
+Back-end
 
 Java 23
 Spring Boot
@@ -93,38 +97,41 @@ PostgreSQL
 Deploy no Render
 Documentação via Swagger
 
-🔧 Ferramentas
+Ferramentas
+--------------
 
 Git / GitHub
 Swagger UI
 FlutterFlow
 
-🔐 Login – API Call
+Login – API Call
 
 1. Call Definition
 2. Response & Test
 3. Aba de Test
 
-📝 Cadastro de Usuário – API Call
+Cadastro de Usuário – API Call
 1. Call Definition
 2. Response & Test
 3. Aba de Test
 
-👤 Dados do Usuário – API Call
+Dados do Usuário – API Call
 1. Call Definition
 2. Response & Test
 3. Aba de Test
 
-🏡 Cadastro de Endereço – API Call
+Cadastro de Endereço – API Call
 1. Call Definition
 2. Response & Test
 3. Aba de Test
 
-🔗 Swagger:
+Swagger:
+-------------
 
 http://localhost:8080/aula/swagger-ui/index.html#/
 
-👨‍💻 Desenvolvedor
+Desenvolvedor
+----------
 
 Nome: Ana Clara Kaizer Ribeiro
 Turma: 2 Info B
