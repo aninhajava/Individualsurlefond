@@ -128,7 +128,7 @@ Cadastro de Endereço – API Call
 Swagger:
 -------------
 
-http://localhost:8080/aula/swagger-ui/index.html#/
+(https://individualsurlefond.onrender.com/aula/swagger-ui/index.html#/)
 
 Desenvolvedor
 ----------
