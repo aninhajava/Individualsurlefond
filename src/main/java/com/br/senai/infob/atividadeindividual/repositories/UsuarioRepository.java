@@ -8,6 +8,6 @@ import com.br.senai.infob.atividadeindividual.models.Usuario;
 
 @Repository
 public interface UsuarioRepository extends JpaRepository<Usuario, Integer> {
-    @Query(value="select * from usuario where email = email", nativeQuery = true)
+    @Query(value="select * from usuario where email = :email", nativeQuery = true)
     public Usuario findByEmail(String email);
 }

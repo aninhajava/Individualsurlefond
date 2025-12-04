@@ -26,6 +26,7 @@ public class UsuarioController {
     public Usuario login(@RequestParam String email,@RequestParam String senha) {
         return usuarioService.login(email, senha);
     }
+
     
     @PostMapping("/cadastro")
     public Usuario cadastro(@RequestBody Usuario usuario, @RequestParam String senha, @RequestParam String confirmarSenha) {
